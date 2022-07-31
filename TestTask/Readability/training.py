@@ -50,6 +50,8 @@ class TrainML():
         model = DecisionTreeRegressor(random_state=0, max_leaf_nodes=24)
         model.fit(train_X, train_y)
 
+
+        print("r2_score = %s" % r2_score(train_y, train_preds))
         print(f'MAE for train prediction {mean_absolute_error(train_y,train_preds)}')
         print(f'for MSE for val prediction {np.sqrt(metrics.mean_squared_error(train_y,train_preds))}')
 

@@ -1,3 +1,4 @@
+r2_score = 0.40538311728279575
 MAE for train prediction 0.6324162115672693
 for MSE for val prediction 0.7954165288443251
           id    target
