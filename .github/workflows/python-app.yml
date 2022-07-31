@@ -37,6 +37,6 @@ jobs:
     - name:  cd TestTask/
       run:  cd TestTask/
     - name: start server
-      run: chmod u+x start_server.sh; ./start_server.sh
+      run: cd TestTask/; chmod u+x start_server.sh; ./start_server.sh
 
   
